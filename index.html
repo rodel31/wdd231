@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Homepage for WDD 231 Web Frontend Development II" />
+  <meta name="author" content="Your Name" />
+  <title>WDD 231 - Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css" media="screen and (min-width: 32.5rem)">
+
+  <!-- JavaScript -->
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/avatar.jpg" alt="Your Name" width="75" height="75">
+    <span>Your Name</span>
+  </header>
+
+  <nav>
+    <button id="menu-button" aria-label="Toggle menu">☰</button>
+    <ul id="primary-nav">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#">Chamber</a></li>
+      <li><a href="#">Final</a></li>
+      <li><a href="https://github.com/yourgithubusername">GitHub Profile</a></li>
+      <li><a href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <section>
+      <h2>Section One</h2>
+      <p>Intro or content here...</p>
+    </section>
+
+    <section>
+      <h2>Certificate Courses</h2>
+      <div id="course-buttons">
+        <button id="all-courses">All Courses</button>
+        <button id="wdd-courses">WDD Courses</button>
+        <button id="cse-courses">CSE Courses</button>
+      </div>
+      <div id="courses-container"></div>
+      <p>Total Credits: <span id="total-credits">0</span></p>
+    </section>
+
+    <section>
+      <h2>Section Three</h2>
+      <p>More content here...</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Rodel Ramos -  Philippines</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
