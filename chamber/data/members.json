@@ -1,0 +1,20 @@
+{
+  "members": [
+    {
+      "name": "Sahara Textiles",
+      "address": "123 Desert Rd, Timbuktu",
+      "phone": "(223) 111-2222",
+      "website": "https://saharatextiles.com",
+      "image": "sahara.png",
+      "membership": 3
+    },
+    {
+      "name": "Oasis Foods",
+      "address": "45 Palm Blvd, Timbuktu",
+      "phone": "(223) 333-4444",
+      "website": "https://oasisfoods.ml",
+      "image": "oasis.png",
+      "membership": 2
+    }
+  ]
+}
